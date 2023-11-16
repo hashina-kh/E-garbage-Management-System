@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Selection"
+   android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="55dp"
+        >
+
+    <android.widget.Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/textwhite"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="User"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+
+
+    <android.widget.Button
+        android:id="@+id/truckdriver"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/textwhite"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="Truck Driver"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+        <android.widget.Button
+            android:id="@+id/wardmember"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/advent_pro_medium"
+            android:text="Ward member"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <android.widget.Button
+            android:id="@+id/organization"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/advent_pro_medium"
+            android:text="Organization"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

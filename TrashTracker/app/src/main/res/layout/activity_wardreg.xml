@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="User Sign up"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/textwhite"
+            android:drawableStart="@drawable/name"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="E-mail"
+            android:drawableStart="@drawable/mail"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etPhonenumberreg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Mobile number"
+            android:drawableStart="@drawable/mobno"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/white"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etPasswordreg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Password"
+            android:drawableStart="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Address"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/add"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        <TextView
+            android:background="@drawable/textwhite"
+            android:text="Choose Ward"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="9dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spin"
+            android:background="@drawable/textwhite"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="33dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp">
+
+
+            <EditText
+                android:id="@+id/etOTP"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/textwhite"
+                android:fontFamily="@font/architects_daughter"
+                android:hint="OTP"
+                android:inputType="number"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <android.widget.Button
+                android:id="@+id/btnOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="33dp"
+                android:background="@drawable/textwhite"
+                android:fontFamily="@font/audiowide"
+                android:text="send OTP"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <android.widget.Button
+            android:id="@+id/btnreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/audiowide"
+            android:text="sign up"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:id="@+id/progresreg"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:gravity="center"
+       android:background="@drawable/textwhite"
+        android:text="Have an account? SIGN IN"
+         />
+
+
+</RelativeLayout>

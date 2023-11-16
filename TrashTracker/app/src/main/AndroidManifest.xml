@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.trashtracker">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Splash"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".TruConfirmPassword"
+            android:exported="false" />
+        <activity
+            android:name=".TruForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".MemConfirmPassword"
+            android:exported="false" />
+        <activity
+            android:name=".MemForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".OrgConfirmPassword"
+            android:exported="false" />
+        <activity
+            android:name=".OrgForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".CompletedList"
+            android:exported="false" />
+        <activity
+            android:name=".OrganizationHome"
+            android:exported="false" />
+        <activity
+            android:name=".Organizationregister"
+            android:exported="false" />
+        <activity
+            android:name=".OrganizationLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Collected_List"
+            android:exported="false" />
+        <activity
+            android:name=".View_reports"
+            android:exported="false" />
+        <activity
+            android:name=".Sendsms"
+            android:exported="false" />
+        <activity
+            android:name=".Wastebin1"
+            android:exported="false" />
+        <activity
+            android:name=".View_Ward"
+            android:exported="false" />
+        <activity
+            android:name=".View_Wastebin"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Wastebin4"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Wastebin3"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Wastebin2"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Wastebin1"
+            android:exported="false" />
+        <activity
+            android:name=".Wastebin"
+            android:exported="false" />
+        <activity
+            android:name=".WardHome"
+            android:exported="false" />
+        <activity
+            android:name=".Wardlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Wardreg"
+            android:exported="false" />
+        <activity android:name=".articles" />
+        <activity android:name=".complaint" />
+        <activity android:name=".optionsselection" />
+        <activity android:name=".feedback" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".trashbinsactivity"
+            android:label="@string/title_activity_trashbinsactivity" />
+        <activity android:name=".truckreportwaste" />
+        <activity android:name=".Usercontributewaste" />
+        <activity android:name=".truckcontributewaste" />
+        <activity android:name=".Truckdriverhome" />
+        <activity android:name=".Userreportwaste" />
+        <activity android:name=".Userconfirmpassword" />
+        <activity android:name=".Selection" />
+        <activity android:name=".Truckdriverregister" />
+        <activity android:name=".Truckdriverlogin" />
+        <activity
+            android:name=".feedback"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".optionsselection"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".complaint"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

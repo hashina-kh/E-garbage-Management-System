@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+
+
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:cardCornerRadius="30dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:backgroundTint="#1D9F9595"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="waste type :"
+                android:textSize="16sp"
+                android:fontFamily="@font/advent_pro_medium"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hahahjhjhjhj"
+                android:id="@+id/wastetypecontribute"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:fontFamily="@font/advent_pro_medium"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:paddingLeft="15dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quantity :"
+                android:textColor="@color/white"
+                android:fontFamily="@font/advent_pro_medium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hahahhaahh"
+                android:textColor="@color/white"
+                android:id="@+id/quantitycontribute"
+                android:fontFamily="@font/advent_pro_medium"
+                android:textSize="15sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="7dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mobilenummber :"
+                android:textSize="16sp"
+                android:fontFamily="@font/advent_pro_medium"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8979097997"
+                android:textSize="15sp"
+                android:id="@+id/numbercontribute"
+                android:fontFamily="@font/advent_pro_medium"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description :"
+                android:textSize="16sp"
+                android:fontFamily="@font/advent_pro_medium"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dadf0gs0gisig"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/descriptioncontribute"
+                android:fontFamily="@font/advent_pro_medium"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/contributecomplete"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:text="COMPLETED"
+        android:textColor="@color/white"
+        android:background="@drawable/textwhite"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Truckdriverlogin"
+   android:background="@color/white">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Truck Driver Sign in"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/truckmobile"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textwhite"
+            android:drawableStart="@drawable/mobno"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/white"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:passwordToggleEnabled="true"
+    android:textColorHint="@color/white">
+
+        <EditText
+            android:id="@+id/truckpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textwhite"
+            android:drawableStart="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+</com.google.android.material.textfield.TextInputLayout>
+        <android.widget.Button
+            android:id="@+id/trucklogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/textwhite"
+            android:fontFamily="@font/audiowide"
+            android:text="sign in"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/architects_daughter"
+            android:text=" Forgot Password "
+            android:id="@+id/etforgot"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/textwhite"
+            android:paddingHorizontal="10dp"
+            android:textSize="16dp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/truckreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/textwhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Don't have an account? SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+
+</RelativeLayout>

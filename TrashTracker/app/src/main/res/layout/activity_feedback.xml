@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/textwhite"
+            android:hint="FEEDBACKS"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:fontFamily="@font/audiowide"
+            android:paddingHorizontal="10dp"
+            android:paddingStart="120dp"
+            android:textColorHint="@color/white" />
+
+        <android.widget.Button
+            android:id="@+id/sendfeedbacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:text="SEND FEEDBACK"
+            android:fontFamily="@font/audiowide"
+            android:textSize="18dp"
+            android:background="@drawable/textwhite"
+            android:layout_marginHorizontal="50dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
